@@ -1,0 +1,27 @@
+class Solution {
+public:
+
+// Initially we consider all number as prime 
+// then we remove all multiple of 2 like 4,6,8,10....38 and count++
+//then we remove multiple of 3 like 6,9,12,15.... and count++
+// we check 4 which is removed or false then we move on 5
+//afteer 5 we move on 11 and so on
+
+
+
+    int countPrimes(int n) {
+        int count =0;
+        vector<bool> prime(n+1,true);
+        prime[0]=false;
+        prime[1]=false;
+        for (int i =2;i<n;i++){
+            if(prime[i]){count++;
+            for(int j = i*2;j<n;j=j+i){prime[j]=false;}
+            }
+        }
+
+return count;
+
+
+    }
+};
