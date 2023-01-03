@@ -31,6 +31,18 @@ cout << s[0] << " " << p[0];
 
 // output -- h h
 
+
+char st[]="ABCD";
+for(int i =0; st[i] != '\0'; i++){
+	cout<< st[i] << *(st)+i << *(i +st) << i[st] <<endl; 
+				}
+// output 
+A65AA
+B66BB
+C67CC
+D68DD
+
+
 return 0;
 }
 
