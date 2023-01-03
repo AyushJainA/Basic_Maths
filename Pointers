@@ -8,6 +8,9 @@ int main(){
 	cout<<*q<<endl;
 	(*q)++;
 	cout<<i<<endl;
+	
+	// &-- address of
+	// *--Location of 
 			
 
 
