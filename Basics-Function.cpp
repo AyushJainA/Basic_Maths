@@ -6,7 +6,8 @@ inline int getmax(int &a ,int &b){
 	return(a>b) ? a : b;
 }
 
-int func(int arr[] ,int n, int start =0){
+int func(int arr[] ,int n, int start =0){ // default argumenent always right to left rhegi that means pehle start default bnega tab hi n default bnn payega 
+					// agr start default nhi hai too n default argu nhi bnn payega 
 	
 	for(int i=start ;i<n;i++){
 		cout<<arr[i]<<" ";
