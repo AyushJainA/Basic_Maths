@@ -4,7 +4,7 @@ using namespace std;
 
 void rev(int arrr[], int n,int i=0  ){
 	if(i>=n/2){return ;}
-	swap(arrr[i],arrr[n-i-1]);
+	swap(arrr[i],arrr[n-i-1 ]);
 	
 	
 	rev( arrr, n, i+1);
