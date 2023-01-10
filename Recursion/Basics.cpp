@@ -31,7 +31,7 @@ using namespace std;
 		}
 		return n*factorila(n-1);
 	
-	}
+	} // there are many types of recursion 
 	
 int main(){
 	int n;
