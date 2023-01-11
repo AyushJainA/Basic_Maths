@@ -11,7 +11,7 @@ void pnt(vector<int> arr, vector<int> &ds ,int n,int index =0){
         return ;
     }
 
-//take the first index 
+//take the first index ok 
 ds.push_back(arr[index]);
 pnt(arr,ds,n,index+1);
 
